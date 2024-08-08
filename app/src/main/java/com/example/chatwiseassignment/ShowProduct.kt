@@ -23,7 +23,6 @@ class ShowProduct: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.recycler_activity)
-        setContentView(R.layout.product_details)
 
         recyclerView = findViewById<RecyclerView>(R.id.recycler_View)
 
